@@ -2,7 +2,7 @@
 
 #if __has_include(<FirebaseAnalytics/FIRAnalytics.h>)
 #import <FirebaseAnalytics/FIRAnalytics.h>
-#import <FirebaseAnalytics/FIRAnalyticsConfiguration.h>
+#import "FIRAnalyticsConfiguration.h"
 
 @implementation RNFirebaseAnalytics
 RCT_EXPORT_MODULE();
